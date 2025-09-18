@@ -113,7 +113,5 @@ function verificarIntento(){
     console.log(numeroDeUsuario);
     /*DATO BOOLEANO DA VALORES TRUE OR FALSE*/
     console.log(numeroDeUsuario /*COMPARAR*/ == numeroSecreto); /*esta condicion nos va a retornar el numero booleano*/
-
     return;
-    //alert("numero ingresado : " + numeroDeUsuario);
 }

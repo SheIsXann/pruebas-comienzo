@@ -3,8 +3,8 @@ let numeroSecreto = generarNumeroSecreto
 console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {
-    let elemetoHTLM = document.querySelector(elemento) ;
-    elemetoHTLM.innerHTML = texto
+    let elemetoHTML = document.querySelector(elemento);
+    elemetoHTML.innerHTML = texto;
     return;
 }
 function verificarIntento(){

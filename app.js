@@ -79,8 +79,8 @@ console.log(numeroSecreto);
 
 /*HACER LA FUNCION GENERICA*/ 
 function asignarTextoElemento(elemento/*parametro*/,texto /*parametro*/ /*estas son variables dentro de la funcion*/) {
-    let elemetroHTLM /*variable*/ = document.querySelector(elemento /*se cambian las nuevas variables*/) ;
-    elemetroHTLM.innerHTML = texto /*se cambia a una variable*/; 
+    let elementoHTML /*variable*/ = document.querySelector(elemento /*se cambian las nuevas variables*/) ;
+    elementoHTML.innerHTML = texto /*se cambia a una variable*/; 
     /*la funcion puede recibir parametros*/
     /*return;*/ /* sirve para retornar la funcion*/
     return;

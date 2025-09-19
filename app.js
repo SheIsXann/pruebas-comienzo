@@ -4,7 +4,7 @@ console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTLM = document.querySelector(elemento) ;
-    elemetroHTLM.innerHTML = texto
+    elemetoHTLM.innerHTML = texto
     return;
 }
 function verificarIntento(){

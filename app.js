@@ -102,15 +102,20 @@ function generarNumeroSecreto(/*sin parametros*/) {
 }
 
 /*INPUT*/
+//el imput sirve para ingresar datos 
 function verificarIntento(){
     /*let numeroDeUsuario = document.querySelector ('input')*/
     /*vamos a crear que cada input tenga un indentificador con el atributo id en HTML, ejmplo el minimo maximo, etc*/
     //hay mas de un imput por ello tenemos que identificarlos//
     //funcion solo para buscar por id (document.get que tiene diferentes fucniones como getElement7ById, cerramos con el parametro)
-    let /*variable*/numeroDeUsuario = document.get/*get de obtener */ElementById("valorUsuario")/*tiene atributos como el value*/.value;
+
+
+    //otra forma de usar imput
+    let /*variable*/numeroDeUsuario = document.get/*get de obtener */ElementById/*obtener elemento por Id*/("valorUsuario")/*tiene atributos como el value*/.value;
     /*alert('click desde el boton');*/
     console.log(numeroDeUsuario);
-    console.log(numeroDeUsuario);
+    console.log(numeroSecreto);
+    
     /*DATO BOOLEANO DA VALORES TRUE OR FALSE*/
     console.log(numeroDeUsuario /*COMPARAR*/ == numeroSecreto); /*esta condicion nos va a retornar el numero booleano*/
     return;

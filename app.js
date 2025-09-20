@@ -74,7 +74,7 @@ let titulo = document.querySelector('h1'):*/
 
 /*asignarTextoElemento(); */
 
-let numeroSecreto = generarNumeroSecreto /*variable de alcance global para el numeroSecreto*/
+let numeroSecreto = generarNumeroSecreto();/*variable de alcance global para el numeroSecreto*/
 console.log(numeroSecreto);
 
 /*HACER LA FUNCION GENERICA*/ 

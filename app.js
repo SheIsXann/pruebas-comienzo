@@ -1,8 +1,6 @@
 
 let numeroSecreto= 0;
 let intentos = 0;
-console.log(numeroSecreto)
-
 
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTML = document.querySelector(elemento);

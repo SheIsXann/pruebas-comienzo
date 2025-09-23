@@ -1,5 +1,5 @@
 
-let numeroSecreto= 0;
+let numeroSecreto = 0;
 let intentos = 0;
 console.log(numeroDeUsuario);
 console.log(generarNumeroSecreto);
@@ -49,7 +49,7 @@ function condicionesIniciales() {
     intentos = 1;
 }
 
-function reiniciarJuego(){
+function reiniciarJuego() {
     limpiarCaja();
     condicionesIniciales();
 }

@@ -1,7 +1,8 @@
 
 let numeroSecreto= 0;
-console.log(numeroSecreto);
 let intentos = 0;
+
+console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTML = document.querySelector(elemento);
@@ -45,7 +46,7 @@ document.querySelector('#valorUsuario').value = "";
 function condicionesIniciales() {
     asignarTextoElemento('h1','Juego del numero Secreto!');
     asignarTextoElemento('p','Indica un numero del 1 al 10');
-    numeroSecreto = generarNumeroSecreto();
+    generarNumeroSecreto();
     intentos = 1;
 }
 

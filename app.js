@@ -14,7 +14,7 @@ function generarNumeroSecreto() {
 }
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
-
+    document.getElementById('reiniciar').removeAttribute('disabled');
     console.log(intentos);
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', `Acertaste el numero secreto en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
@@ -49,5 +49,4 @@ function condicionesIniciales() {
     asignarTextoElemento('p','Indica un numero del 1 al 10');
     let numeroSecreto = generarNumeroSecreto();
     intentos = 1;
-
 }

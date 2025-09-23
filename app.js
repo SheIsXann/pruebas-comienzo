@@ -42,7 +42,6 @@ document.querySelector('#valorUsuario').value = "";
 }
 
 function condicionesIniciales() {
-    
     asignarTextoElemento('h1','Juego del numero Secreto!');
     asignarTextoElemento('p','Indica un numero del 1 al 10');
     numeroSecreto = generarNumeroSecreto();

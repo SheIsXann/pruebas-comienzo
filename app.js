@@ -18,7 +18,7 @@ function verificarIntento(){
 
     console.log(intentos);
     if(numeroDeUsuario === numeroSecreto) {
-        asignarTextoElemento('p', `Acertaste el numero en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
+        asignarTextoElemento('p', `Acertaste el numero secreto en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
 
     }else{ 
         if (numeroDeUsuario > numeroSecreto){ 

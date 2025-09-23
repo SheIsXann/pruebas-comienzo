@@ -1,6 +1,5 @@
-
 let numeroSecreto = 0;
-let intentos = 0;
+
 console.log(numeroDeUsuario);
 
 function asignarTextoElemento(elemento, texto) {
@@ -9,9 +8,7 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
-
-
-function verificarIntento(){
+function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
     
     console.log(intentos);

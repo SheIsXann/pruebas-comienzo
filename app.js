@@ -1,7 +1,8 @@
 
 let numeroSecreto= 0;
 let intentos = 0;
-
+console.log(numeroDeUsuario);
+console.log(generarNumeroSecreto);
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTML = document.querySelector(elemento);
     elemetoHTML.innerHTML = texto;
@@ -30,8 +31,7 @@ function verificarIntento(){
         intentos++;
         limpiarCaja();
     } 
-    console.log(numeroDeUsuario);
-    console.log(numeroSecreto);
+
     return;
 }
 

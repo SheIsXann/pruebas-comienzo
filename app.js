@@ -21,14 +21,21 @@ function verificarIntento(){
         asignarTextoElemento('p', `Acertaste el numero secreto en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
 
     }else{ 
+        //el usuario no acerto
         if (numeroDeUsuario > numeroSecreto){ 
             asignarTextoElemento('p', 'El numero es menor');
         }else {
             asignarTextoElemento('p', 'El numero secreto es mayor');
         }
         intentos++;
+        limpiarCaja();
     } 
     console.log(numeroDeUsuario);
+//limpiar el promt
+function limpiarCaja()
+document.querySelector('#valorUsuario')
+valorCaja.value = '';
+
     return;
 }
 

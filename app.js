@@ -36,6 +36,5 @@ function verificarIntento(){
    
 
 function limpiarCaja(){
-document.querySelector('#valorUsuario')
-valorCaja.value = '';
+document.querySelector('#valorUsuario').value ="";
 }

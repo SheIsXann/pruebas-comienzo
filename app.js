@@ -42,7 +42,6 @@ document.querySelector('#valorUsuario').value = "";
 function jugarDeNuevo(){
     limpiarCaja();
     condicionesIniciales();
-
 }
 
 function condicionesIniciales(){

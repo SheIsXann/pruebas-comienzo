@@ -32,10 +32,10 @@ function verificarIntento(){
     } 
     console.log(numeroDeUsuario);
     return;
-    function condicionesIniciales();
 }
 
-function condicionesIniciales();
+
+condicionesIniciales();
    
 function limpiarCaja(){
 document.querySelector('#valorUsuario').value = "";

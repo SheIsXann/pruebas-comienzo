@@ -1,7 +1,7 @@
 
 let numeroSecreto= 0;
 let intentos = 0;
-
+console.log(numeroSecreto)
 console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {

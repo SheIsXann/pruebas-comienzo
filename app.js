@@ -31,7 +31,6 @@ function verificarIntento(){
         intentos++;
         limpiarCaja();
     } 
-
     return;
 }
 
@@ -53,5 +52,4 @@ function condicionesIniciales() {
 function reiniciarJuego(){
     limpiarCaja();
     condicionesIniciales();
-
 }

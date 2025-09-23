@@ -22,7 +22,7 @@ function verificarIntento(){
         document.getElementById('reiniciar').removeAttribute('disabled');
     }else{ 
         //el usuario no acerto
-        if (numeroDeUsuario > numeroSecreto){ 
+        if (numeroDeUsuario > numeroSecreto) { 
             asignarTextoElemento('p', 'El numero es menor');
         }else {
             asignarTextoElemento('p', 'El numero secreto es mayor');
@@ -39,12 +39,12 @@ function limpiarCaja(){
 document.querySelector('#valorUsuario').value = "";
 }
 
-function jugarDeNuevo(){
+function reiniciarJuego() {
     limpiarCaja();
     condicionesIniciales();
 }
 
-function condicionesIniciales(){
+function condicionesIniciales() {
     asignarTextoElemento('h1','Juego del numero Secreto!');
     asignarTextoElemento('p','Indica un numero del 1 al 10');
     let numeroSecreto = generarNumeroSecreto();

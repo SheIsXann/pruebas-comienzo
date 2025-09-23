@@ -50,6 +50,6 @@ function reiniciarJuego(){
 function condicionesIniciales() {
     asignarTextoElemento('h1','Juego del numero Secreto!');
     asignarTextoElemento('p','Indica un numero del 1 al 10');
-    let numeroSecreto = generarNumeroSecreto();
+    numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }

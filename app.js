@@ -12,7 +12,7 @@ function verificarIntento(){
     return;
 }
 asignarTextoElemento('h1','Juego del numero Secreto!');
-asignarTextoElemento('p','Indica un numero del 1 al 100');
+asignarTextoElemento('p','Indica un numero del 1 al 10');
 
 function generarNumeroSecreto() {
     return Math.floor(Math.random()*10)+1;

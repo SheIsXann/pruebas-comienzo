@@ -1,5 +1,5 @@
 
-let numeroSecreto = generarNumeroSecreto
+let numeroSecreto = generarNumeroSecreto();
 console.log(numeroSecreto);
 
 function asignarTextoElemento(elemento, texto) {

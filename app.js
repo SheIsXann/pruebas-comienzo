@@ -15,6 +15,7 @@ function generarNumeroSecreto() {
 }
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
+    console.log(intentos);
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', `Acertaste el numero ${intentos} ${(intentos === 1 ) ? 'vez' : 'veces'} `);
 
@@ -26,7 +27,6 @@ function verificarIntento(){
         }
         intentos++;
     } 
-    console.log(intentos);
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario == numeroSecreto);

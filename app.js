@@ -13,7 +13,7 @@ function asignarTextoElemento(elemento, texto) {
 
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
-    document.getElementById('reiniciar').removeAttribute('disabled');
+    
     console.log(intentos);
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', `Acertaste el numero secreto en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);

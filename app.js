@@ -9,9 +9,7 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
-function generarNumeroSecreto() {
-    return Math.floor(Math.random()*10)+1;
-}
+
 
 function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
@@ -39,6 +37,10 @@ condicionesIniciales();
    
 function limpiarCaja(){
 document.querySelector('#valorUsuario').value = "";
+}
+
+function generarNumeroSecreto() {
+    return Math.floor(Math.random()*10)+1;
 }
 
 function condicionesIniciales() {

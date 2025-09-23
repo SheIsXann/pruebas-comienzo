@@ -18,7 +18,13 @@ function generarNumeroSecreto() {
     return Math.floor(Math.random()*10)+1;
 }
 function verificarIntento(){
-    let numeroDeUsuario = document.getElementById("valorUsuario").value;
+    let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
+    if(numeroDeUsuario === numeroSecreto) {
+        asignarTextoElemento('p', 'Acertaste el numero');
+
+    }else{
+        asignarTextoElemento()
+    }
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario == numeroSecreto);

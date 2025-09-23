@@ -24,9 +24,8 @@ function verificarIntento(){
         }else {
             asignarTextoElemento('p', 'El numero secreto es mayor')
         }
+        intentos++;
     } 
-
-    intentos++;
     console.log(intentos)
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario);

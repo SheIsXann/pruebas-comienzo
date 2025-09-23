@@ -22,9 +22,13 @@ function verificarIntento(){
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', 'Acertaste el numero');
 
-    }else{
-        asignarTextoElemento()
-    }
+    }else{ 
+        if (numeroDeUsuario > numeroSecreto){ 
+            asignarTextoElemento('p', 'El numero es menor')
+        }else {
+            asignarTextoElemento('p', 'El numero secreto es mayor')
+        }
+    } 
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario == numeroSecreto);

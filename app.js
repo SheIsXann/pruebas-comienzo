@@ -1,7 +1,7 @@
 
-let numeroSecreto = generarNumeroSecreto();
+let numeroSecreto = 0;
 console.log(numeroSecreto);
-let intentos = 1;
+let intentos = 0;
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTML = document.querySelector(elemento);
     elemetoHTML.innerHTML = texto;
@@ -34,15 +34,17 @@ function verificarIntento(){
     return;
     function condicionesIniciales();
 }
+
 function condicionesIniciales();
    
 function limpiarCaja(){
 document.querySelector('#valorUsuario').value = "";
 }
 
-function reiniciarJuego() {
+function reiniciarJuego(){
     limpiarCaja();
     condicionesIniciales();
+
 }
 
 function condicionesIniciales() {

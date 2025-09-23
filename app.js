@@ -32,6 +32,7 @@ function verificarIntento(){
     } 
     console.log(numeroDeUsuario);
     return;
+    function condicionesIniciales();
 }
 function condicionesIniciales();
    

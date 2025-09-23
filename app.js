@@ -32,6 +32,5 @@ function verificarIntento(){
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario);
     console.log(numeroDeUsuario == numeroSecreto);
-    alert("click desde el boton")
     return;
 }

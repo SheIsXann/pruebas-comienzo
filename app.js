@@ -1,6 +1,6 @@
 let numeroSecreto = 0;
 
-console.log(numeroDeUsuario);
+console.log(numeroDeUsuario)
 
 function asignarTextoElemento(elemento, texto) {
     let elemetoHTML = document.querySelector(elemento);
@@ -14,10 +14,10 @@ function verificarIntento() {
     console.log(intentos);
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', `Acertaste el numero secreto en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
-        //COMO ACTIVAR BOTONES CADA VEZ QUE EL USUARIO TERMINA EL JUEGO O ACIERTA
+        /*COMO ACTIVAR BOTONES CADA VEZ QUE EL USUARIO TERMINA EL JUEGO O ACIERTA*/
         document.getElementById('reiniciar').removeAttribute('disabled');
     }else{ 
-        //el usuario no acerto
+        /*el usuario no acerto*/
         if (numeroDeUsuario > numeroSecreto) { 
             asignarTextoElemento('p', 'El numero es menor');
         }else {
@@ -32,7 +32,7 @@ function verificarIntento() {
 
 condicionesIniciales();
    
-function limpiarCaja(){
+function limpiarCaja() {
 document.querySelector('#valorUsuario').value = "";
 }
 

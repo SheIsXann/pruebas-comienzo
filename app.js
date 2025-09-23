@@ -29,7 +29,6 @@ function verificarIntento(){
         intentos++;
     } 
     console.log(numeroDeUsuario);
-    console.log(numeroDeUsuario == numeroSecreto);
     return;
 }
 

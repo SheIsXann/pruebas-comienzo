@@ -31,11 +31,11 @@ function verificarIntento(){
         limpiarCaja();
     } 
     console.log(numeroDeUsuario);
-//limpiar el promt
-function limpiarCaja()
-document.querySelector('#valorUsuario')
-valorCaja.value = '';
-
     return;
 }
+   
 
+function limpiarCaja(){
+document.querySelector('#valorUsuario')
+valorCaja.value = '';
+}

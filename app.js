@@ -26,6 +26,9 @@ function verificarIntento() {
         intentos++;
         limpiarCaja();
     } 
+    console.log(numeroDeUsuario);
+    console.log(numeroDeUsuario);
+    console.log(numeroDeUsuario == numeroSecreto);
     return;
 }
 

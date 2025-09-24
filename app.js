@@ -7,10 +7,6 @@ function asignarTextoElemento(elemento, texto) {
     elemetoHTML.innerHTML = texto;
     return;
 }
-function verificarIntento(){
-    alert('click desde el boton');
-    return;
-}
 asignarTextoElemento('h1','Juego del numero Secreto!');
 asignarTextoElemento('p','Indica un numero del 1 al 10');
 
@@ -21,6 +17,7 @@ function verificarIntento(){
     let numeroDeUsuario = parseInt(document.getElementById("valorUsuario").value);
     if(numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p', 'Acertaste el numero');
+        document.querySelector('reiniciar').removeAttribute('disabled').value;
 
     }else{ 
         if (numeroDeUsuario > numeroSecreto){ 
